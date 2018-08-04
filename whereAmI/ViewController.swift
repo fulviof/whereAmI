@@ -39,6 +39,11 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         let localizacaoUsuario = locations.last!;
         
         let longitude = localizacaoUsuario.coordinate.longitude;
+        
+        
+        
+        
+        
         let latitude = localizacaoUsuario.coordinate.latitude
         
         longitudeLabel.text = String(longitude);
